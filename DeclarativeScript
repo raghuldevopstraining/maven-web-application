@@ -1,8 +1,13 @@
 pipeline {
-    agent {
+   /*
+   agent {
     label 'hdfcbanknode'
     }
+    */
     
+    agent {
+    label 'nodes'
+}
     tools{
         maven 'Maven-3.8.7'
     }
