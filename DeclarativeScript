@@ -19,9 +19,6 @@ pipeline {
             buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
         }
     
-    parameters {
-  choice choices: ['devops', 'hdfcdev-env', 'mavenproject-notification'], description: 'Please select the channel to send notification', name: 'SlackNotification'
-}
     
     /*
     triggers {
