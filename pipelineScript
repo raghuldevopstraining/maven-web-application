@@ -1,4 +1,4 @@
-node{
+node('hdfcbanknode'){
     
     echo "The job name is: ${env.JOB_NAME}"
     echo " The build number is: ${env.JOB_NAME}"
