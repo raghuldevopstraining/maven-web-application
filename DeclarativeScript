@@ -1,3 +1,5 @@
+@Library('RaghulNotification')
+
 pipeline {
    /*
    agent {
@@ -81,6 +83,7 @@ pipeline {
     
 }//pipeline closing
 
+/*
 def sendSlackNotification(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESS'
@@ -106,3 +109,4 @@ def sendSlackNotification(String buildStatus = 'STARTED') {
   // Send notifications
   slackSend (color: colorCode, message: summary,channel: '#hdfcdev-env')
 }
+*/
