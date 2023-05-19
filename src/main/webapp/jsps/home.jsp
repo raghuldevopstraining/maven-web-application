@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Raghul Devops Practice. Bengaluru,Karnataka,India </h1>
-<h1 align="center"> This is Master branch page</h1>
+<h1 align="center"> This is Master branch page changes for Docker</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
