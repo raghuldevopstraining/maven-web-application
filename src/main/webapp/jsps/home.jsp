@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Raghul Devops Practice. Bengaluru,Karnataka,India </h1>
+<h1 align="center">Welcome to Devops Practice and training. Bengaluru,Karnataka,India </h1>
 <h1 align="center"> This is Master branch page changes for Docker Dec 2023</h1>
 <hr>
 <br>
